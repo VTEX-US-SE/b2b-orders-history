@@ -40,6 +40,7 @@
   "order.viewAllItems": "View all items",
   "order.printBankInvoice": "Print bank invoice",
   "order.cancelOrder": "Request Cancellation",
+  "order.printOrder": "Print Order",
   "order.changeOrder": "Change Order",
   "order.orderAgain": "Order again",
   "order.goToOrderDetails": "View order details",

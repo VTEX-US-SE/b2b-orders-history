@@ -64,7 +64,7 @@ const OrderActions = ({ order, allowSAC }) => {
       }}
     >
       <span className="db pv2 c-link hover-c-link link" style={{ cursor: 'pointer', textAlign: 'left' }}>
-        Print Order
+      <FormattedMessage id="order.printOrder" />
       </span>
     </button>
   )

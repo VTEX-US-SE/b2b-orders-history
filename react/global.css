@@ -743,8 +743,28 @@
 }
 
 @media print {
-  .container {
+  /* .container {
     width: 940px;
+  } */
+  body {
+    visibility: hidden !important;
+  }
+
+  .hide-on-print {
+    display: none !important;
+  }
+
+  /* Show elements with .show-on-print */
+  .show-on-print,
+  .show-on-print-container {
+    visibility: visible !important;
+  }
+
+  div.show-on-print-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
   }
 }
 
